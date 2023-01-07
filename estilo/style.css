@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'safira-italic';
+    src: url('../fontes/Safira\ Italic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'neon';
+    src: url('../fontes/NEONLEDLight.otf') format(opentype);
+}
+
+@font-face {
+    font-family: 'safira';
+    src: url('../fontes/Safira.otf') format(opentype);
+}
+
+
+body{
+    background-color: black;
+    color: #ddd685;
+}
+
+body h1{
+    text-align: center;
+    font-family: 'safira';
+}
