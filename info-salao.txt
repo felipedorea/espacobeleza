@@ -1,0 +1,11 @@
+Fontes google-fonts:
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Telex&display=swap');
+
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Telex', sans-serif;
+
+Cores: 
+
+dourado: #DDD685
+Preto: #010101
