@@ -47,6 +47,17 @@ header #titulo-site{
     text-align: center;
 }
 
+header #subtitulo{
+    font-family: 'Telex', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+    color: #ddd685a1;
+    word-spacing: 5px;
+    padding: 5px 0px;
+    text-shadow: .5px 1px 3px #ddd68556;
+}
+
 
 nav{
     max-width: 500px;
