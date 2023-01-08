@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Telex&display=swap');
+
+/*font-family: 'M PLUS Rounded 1c', sans-serif;*/
+/*font-family: 'Telex', sans-serif;*/
+
+@font-face {
+    font-family: 'safira-italic';
+    src: url('../fontes/Safira\ Italic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'neon';
+    src: url('../fontes/NEONLEDLight.otf') format(opentype);
+}
+
+@font-face {
+    font-family: 'safira';
+    src: url('../fontes/Safira.otf') format(opentype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: #ddd685;
+}
+
+
+header{
+    max-width: 100%;
+    min-height: 90px;
+    background-image: linear-gradient(to bottom,#ddd685, black);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+header #titulo-site{
+    font-family: 'safira', sans-serif;
+    padding-top: 15px;
+    font-size: 42px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+
+nav{
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+header .imagem-logo-cab{
+    margin: 50px 50px 0px 0px;
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+header .imagem-logo-vetor{
+    margin: 50px 50px 0px 0px;
+    width: 180px;
+    height: 180px;
+    margin-top: 20px; 
+}
+
+nav a{
+    text-decoration: none;
+    background-image: linear-gradient(to top, black, #ddd685);
+    color: white;
+    font-family: 'safira', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    
+    padding: 2px 7px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: .2s;
+}
+
+nav a:hover{
+    background-color: #7a764971;
+    color: #ddd685;
+    border: 2.5px solid #ddd6858c;
+    }
+
+main{
+    max-width: 100%;
+    margin: 10px 10px;
+    }
+
+    main h1{
+        text-align: center;
+        font-size: 78px;
+    }
