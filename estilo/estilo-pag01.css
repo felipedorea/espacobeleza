@@ -199,6 +199,8 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
+    margin-top: 15px;
+    margin-bottom: 12px;
 }
 
 footer strong{
