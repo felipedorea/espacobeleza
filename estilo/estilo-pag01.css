@@ -43,21 +43,8 @@ header #titulo-site{
     font-family: 'safira', sans-serif;
     padding-top: 15px;
     font-size: 42px;
-    margin-right: 15px;
     text-align: center;
 }
-
-header #subtitulo{
-    font-family: 'Telex', sans-serif;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 18px;
-    color: #ddd685a1;
-    word-spacing: 5px;
-    padding: 5px 0px;
-    text-shadow: .5px 1px 3px #ddd68556;
-}
-
 
 nav{
     max-width: 500px;
@@ -91,7 +78,7 @@ nav a{
     
     padding: 2px 7px;
     border-radius: 5px;
-    margin-left: 5px;
+    margin-left: 7px;
     transition: .2s;
 }
 
