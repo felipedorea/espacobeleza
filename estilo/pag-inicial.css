@@ -46,6 +46,7 @@ nav ul{
 }
 
 ul li{
+    font-family: 'Telex', sans-serif;
     color: #ddd685;
     list-style-type: none;
     margin-right: 28px;
@@ -55,6 +56,13 @@ ul li{
     padding-right: 5px;
     padding-bottom: 7px;
     transition: .2s;
+}
+
+.redes{
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 0px;
 }
 
 a{
@@ -70,25 +78,25 @@ li:hover{
 main{
     background-image: url(../imagens/fundo2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     min-width: 100%;
     max-width: 1920px;
     min-height: 768px;
     max-height: 100%;
-    margin: 0px 0px;
+    margin: auto;
     padding-top: 0px 0px;
-}
-
-div{
-    display: flex;
-    justify-content: right;
-}
-.redes{
-    display: inline-block;
 }
 
 .redes img{
     max-width: 16px;
+}
+
+footer{
+    font-family: 'Telex, sans-serif';
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px 0px 5px 0px;
 }
 
 
