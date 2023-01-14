@@ -11,6 +11,9 @@ font-family: 'Telex', sans-serif;*/
 }
 
 body{
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
     padding: 0px;
     margin: 0px;
 }
@@ -21,7 +24,7 @@ header{
     max-height: fit-content;
 }
 
-nav{
+.barra-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,7 +48,7 @@ nav ul{
     
 }
 
-ul li{
+.naveg{
     font-family: 'Telex', sans-serif;
     color: #ddd685;
     list-style-type: none;
@@ -69,7 +72,7 @@ a{
     text-decoration: none;
 }
 
-li:hover{
+.naveg:hover{
     text-decoration: underline;
     color: #ffffff;
     font-size: .9em;
@@ -86,24 +89,22 @@ li:hover{
 }
 
 main{
-    background-color: #ddd685;
+    background-color: #ddd68580;
     max-width: 1920px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 210px;
 }
 
 main h3{
-    max-width: 500px;
+    max-width: 644px;
     max-height: fit-content;
     margin: auto;
     font-family: 'Telex', sans-serif;
-    background-color: gray;
-    border: 1px solid rgba(0, 0, 0, 0.164);
-    border-radius: 25px;
-
+    text-align: center;
 }
 
 span{
@@ -111,10 +112,60 @@ span{
     font-size: 60px;
     font-weight: lighter;
     font-style: italic;
-    background-color: gray;
 }
 
+aside{
+    background-color: rgb(85, 85, 85);
+    padding: 15px;
+}
 
+aside h3{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.serv-list{
+    columns: 3;
+    text-align: center;
+}
+
+.lista{
+    list-style-type: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#agendamentos-persona{
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contat-agend{
+    list-style-type: none;
+    columns: 3;
+}
+
+.contatos{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.horarios{
+    list-style-type: none;
+}
+
+.horas{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+}
 
 footer{
     display: block;
