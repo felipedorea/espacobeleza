@@ -10,8 +10,15 @@ font-family: 'Telex', sans-serif;*/
     padding: 0px;
 }
 
+html{
+    background-color: #f8807579;
+}
+
 body{
-    background-color: #FFF9F5;
+    background-image: url(../imagens/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     padding: 0px;
     margin: 0px;
 }
@@ -37,6 +44,7 @@ nav img{
 
 nav ul{
     background-color: transparent;
+    margin-right: 35px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,22 +84,22 @@ li:hover{
 }
 
 main{
-    background-image: url(../imagens/fundo2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-width: 100%;
     max-width: 1920px;
-    min-height: 768px;
-    max-height: 100%;
-    margin: auto;
-    padding-top: 0px 0px;
+    min-height: 1370px;
 }
 
 .redes img{
-    max-width: 16px;
+    max-width: 25px;
+    padding: 3px;
+}
+
+.redes img:hover{
+    border: .5px dotted #ddd685;
+    border-radius: 50%;
 }
 
 footer{
+    display: block;
     font-family: 'Telex, sans-serif';
     background-color: black;
     text-align: center;
