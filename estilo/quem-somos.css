@@ -11,9 +11,10 @@ font-family: 'Telex', sans-serif;*/
 }
 
 body{
-    background-image: url(../imagens/fundo.jpg);
+    background-image: url(../imagens/tema-claro-sem-fundo.png);
+    background-size: 75%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-position: center;
     padding: 0px;
     margin: 0px;
 }
@@ -89,93 +90,37 @@ a{
 }
 
 main{
-    background-color: #ddd68580;
-    max-width: 1920px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-main h3{
-    max-width: 644px;
-    max-height: fit-content;
+    background-color: rgba(0, 0, 0, 0.096);
     margin: auto;
+    max-width: 1920px;
+}
+
+.video-clip{
+    text-align: center;
+    height: fit-content;
+    margin: 50px auto;
+}
+
+main h1{
+    text-align: center;
     font-family: 'Telex', sans-serif;
+    margin-top: 15px;
+}
+
+main p{
     text-align: center;
 }
 
-span{
-    max-width: 228px;
-    font-size: 2em;
-    font-weight: lighter;
-    font-style: italic;
+#paragrafo{
+    background-color: black;
+    margin: 15px;
+    color: white;
 }
 
-aside{
-    font-family: 'Telex', sans-serif;;
-    background-color: rgb(85, 85, 85);
-    padding: 15px;
-}
-
-aside h3{
-    text-align: center;
-    font-size: 1.5em;
-    padding: 10px;
-}
-
-.serv-list{
-    list-style-position: inside;
-    columns: 2;
-    width: 100%;
-}
-
-.lista{
-    text-align: center;
-    list-style-type: none;
-    color: black;
-    font-size: 1.1em;
-    font-weight: bold;
-    padding: 10px;
-    margin: 0px;
-}
-
-.sublista{
-    list-style-position: inside;
-    list-style-type: circle;
-    color: black;
-    font-size: .8em;
-    font-weight: normal;
-}
-
-.agendamentos-persona{
-    text-align: center;
-    color: black;
-    font-size: 1em;
-    padding: 10px;
-    font-weight: light;
-    font-style: italic;
-}
-
-.contat-agend{
-    list-style-type: none;
-    columns: 1;
-}
-
-.contatos{
-    text-align: center;
-    font-size: 1.1em;
-    padding: 10px;
-}
-
-.horarios{
-    list-style-type: none;
-}
-
-.horas{
-    text-align: center;
-    font-size: 1.1em;
+#resumo{
+    margin: auto;
+    text-align: justify;
+    max-width: 800px;
     padding: 10px;
 }
 
@@ -187,6 +132,3 @@ footer{
     color: white;
     padding: 5px 0px 5px 0px;
 }
-
-
-
