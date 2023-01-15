@@ -11,6 +11,7 @@ font-family: 'Telex', sans-serif;*/
 }
 
 body{
+    background-color: rgba(0, 0, 0, 0.288);
     background-image: url(../imagens/tema-claro-sem-fundo.png);
     background-size: 75%;
     background-repeat: no-repeat;
@@ -90,7 +91,6 @@ a{
 }
 
 main{
-    background-color: rgba(0, 0, 0, 0.096);
     margin: auto;
     max-width: 1920px;
 }
@@ -102,25 +102,42 @@ main{
 }
 
 main h1{
-    text-align: center;
+    background-image: linear-gradient(45deg, #ddd685, #757145);
+    max-width: 900px;
     font-family: 'Telex', sans-serif;
-    margin-top: 15px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px #ddd68559;
 }
 
-main p{
+#titulo-iframe{
     text-align: center;
+    padding-bottom: 0px;
+    font-weight: bolder;
+    background-color: black;
+    max-width: 47%;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
 }
 
 #paragrafo{
-    background-color: black;
-    margin: 15px;
-    color: white;
+    background-image: linear-gradient(to right, #ddd685, #757145);
+    margin: 10px auto;
+    max-width: fit-content;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.226);
 }
 
 #resumo{
+    font-family: 'Telex', sans-serif;
+    font-weight: lighter;
     margin: auto;
     text-align: justify;
-    max-width: 800px;
+    max-width: 900px;
     padding: 10px;
 }
 
