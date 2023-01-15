@@ -9,23 +9,23 @@
 </head>
 <body>
         <header>
-       <nav>
+       <nav class="barra-nav">
             <img src="../imagens/tema-escuro-hd.png" alt="...">
             <ul>
                 <a href="pag-inicial.html" target="_self">
-                    <li>Início</li>
+                    <li class="naveg">Início</li>
                 </a>
                 <a href="#">
-                    <li>Quem Somos</li>
+                    <li class="naveg">Quem Somos</li>
                 </a>
-                <a href="servicos.html" target="_self">
-                    <li>Serviços</li>
-                </a>
-                <a href="#">
-                    <li>Avaliações</li>
+                <a href="servicos.html">
+                    <li class="naveg">Serviços</li>
                 </a>
                 <a href="#">
-                    <li>Fale Conosco</li>
+                    <li class="naveg">Avaliações</li>
+                </a>
+                <a href="#">
+                    <li class="naveg">Fale Conosco</li>
                 </a>
                 <li class="redes">
                     <a href="#"><img src="../imagens/whatsapp.png" , alt="whatsapp"></a>
@@ -35,10 +35,31 @@
         </nav>
     </header>
     <main>
-    </main>
-    <footer>
-        <p>Site desenvolvido por <i>Felipe França Matos Dórea</i> para o Espaço Beleza</p>
-        <p>&copy; <i>Todos os direitos reservados, Ilhéus, 2023</i></p>
-    </footer>
-</body>
-</html>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/imagens/tema-claro-sem-fundo-128px.png">
+            <source media="(max-width: 900px)" srcset="/imagens/tema-claro-sem-fundo-320px.png">
+            <img class="logo-meio" src="/imagens/tema-claro-sem-fundo.png" alt="logo">
+        </picture>
+        <picture>
+            <source media="(max-width: 700px)" srcset="../imagens/fundo-mulher-128px.png">
+            <source media="(max-width: 1000px)" srcset="../imagens/fundo-mulher-320px.png">
+            <source media="(max-width: 1200px)" srcset="../imagens/fundo-mulher-500px.png">
+            <img id="mulher" src="../imagens/fundo-mulher-G.png" alt="mulher-meio">
+        </picture>
+        </main>
+        <aside>
+            <div>
+                <h3>Transforme seu visual e siga o GPS até o nosso espaço para experimentar nossos <i><u><a id="servicos-gps" href="servicos.html">serviços</a></u></i> de alto nível.</h3>
+                <p>Se não conseguir visualizar o GPS clique <a id="link-gps" href="https://goo.gl/maps/4JHqNV137KsHHDXAA" target="_blank"><i>aqui&#x1F517;</i></a></p>
+            </div>
+            <div class="iframe-gps">
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1673740522791!6m8!1m7!1sFMsJqMzgHg4YrqymwiZQ2w!2m2!1d-14.79746824753851!2d-39.03423133938325!3f323.58278840370446!4f-10.704280639471065!5f0.7820865974627469" width="40%" height="300" style="border:3px solid #ddd685;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7950687.638710401!2d-41.959936790399524!3d-13.339593319715364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7390bbd08285865%3A0xc422ed1fccdaa6c4!2sEspa%C3%A7o%20Beleza!5e0!3m2!1spt-BR!2sbr!4v1673737929612!5m2!1spt-BR!2sbr" width="40%" height="300" style="border:3px solid #ddd685;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </aside>
+        <footer>
+            <p>Site desenvolvido por <i>Felipe França Matos Dórea</i> para o Espaço Beleza</p>
+            <p>&copy; <i>Todos os direitos reservados, Ilhéus, 2023</i></p>
+        </footer>
+        </body>
+        </html>

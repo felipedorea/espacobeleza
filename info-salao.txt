@@ -16,3 +16,5 @@ Preto: #010101
             </a>
             <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/16Gw0WcbL6X/embed" width="640" height="360"></iframe>
         </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7950687.638710401!2d-41.959936790399524!3d-13.339593319715364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7390bbd08285865%3A0xc422ed1fccdaa6c4!2sEspa%C3%A7o%20Beleza!5e0!3m2!1spt-BR!2sbr!4v1673737929612!5m2!1spt-BR!2sbr" width="90%" height="300" style="border:3px solid #ddd685;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

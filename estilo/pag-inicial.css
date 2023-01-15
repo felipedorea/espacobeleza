@@ -10,15 +10,7 @@ font-family: 'Telex', sans-serif;*/
     padding: 0px;
 }
 
-html{
-    background-color: #f8807579;
-}
-
 body{
-    background-image: url(../imagens/fundo2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     padding: 0px;
     margin: 0px;
 }
@@ -29,7 +21,7 @@ header{
     max-height: fit-content;
 }
 
-nav{
+.barra-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -53,7 +45,7 @@ nav ul{
     
 }
 
-ul li{
+.naveg{
     font-family: 'Telex', sans-serif;
     color: #ddd685;
     list-style-type: none;
@@ -77,15 +69,10 @@ a{
     text-decoration: none;
 }
 
-li:hover{
+.naveg:hover{
     text-decoration: underline;
     color: #ffffff;
     font-size: .9em;
-}
-
-main{
-    max-width: 1920px;
-    min-height: 1370px;
 }
 
 .redes img{
@@ -98,6 +85,69 @@ main{
     border-radius: 50%;
 }
 
+main{
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logo-meio{
+    max-width: 500px;
+    border: 1px dotted #797549;
+    border-radius: 50%;
+}
+
+#mulher{
+    max-width: 750px;
+}
+
+aside{
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    padding: 25px 0px;
+}
+
+aside h3{
+    padding: 10px 0px;
+    font-family: 'Telex', sans-serif;;
+}
+
+aside p{
+    padding: 9px;
+    word-spacing: 2px;
+}
+
+#servicos-gps{
+    color: black;
+}
+
+#servicos-gps:hover{
+    color: rgba(37, 37, 37, 0.637)
+}
+
+#link-gps{
+    color: #ddd685;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+}
+
+#link-gps:hover{
+    text-decoration: underline;
+    color: #f7ee94;
+}
+
+.iframe-gps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 footer{
     display: block;
     font-family: 'Telex, sans-serif';
@@ -106,6 +156,5 @@ footer{
     color: white;
     padding: 5px 0px 5px 0px;
 }
-
 
 
