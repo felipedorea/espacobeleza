@@ -114,6 +114,7 @@ span{
 }
 
 aside{
+    font-family: 'Telex', sans-serif;;
     background-color: rgb(85, 85, 85);
     padding: 15px;
 }
@@ -125,19 +126,30 @@ aside h3{
 }
 
 .serv-list{
+    list-style-position: inside;
     columns: 2;
-    text-align: center;
+    width: 100%;
 }
 
 .lista{
+    text-align: center;
     list-style-type: none;
     color: black;
     font-size: 1.1em;
     font-weight: bold;
     padding: 10px;
+    margin: 0px;
 }
 
-#agendamentos-persona{
+.sublista{
+    list-style-position: inside;
+    list-style-type: circle;
+    color: black;
+    font-size: .8em;
+    font-weight: normal;
+}
+
+.agendamentos-persona{
     text-align: center;
     color: black;
     font-size: 1em;
