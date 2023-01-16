@@ -127,7 +127,7 @@ main{
 }
 
 aside{
-    background-color: rgba(102, 102, 102, 0.527);
+    background-color: rgb(196, 196, 196);
     font-family: 'Telex', sans-serif;
     padding: 20px;
     max-width: 100%;

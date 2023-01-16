@@ -105,7 +105,7 @@ main{
 }
 
 aside{
-    background-color: gray;
+    background-color: rgb(196, 196, 196);
     text-align: center;
     width: 100%;
     height: fit-content;

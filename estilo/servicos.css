@@ -115,7 +115,7 @@ span{
 
 aside{
     font-family: 'Telex', sans-serif;;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(196, 196, 196);
     padding: 15px;
 }
 
@@ -167,6 +167,10 @@ aside h3{
     text-align: center;
     font-size: 1.1em;
     padding: 10px;
+}
+
+.darkzap{
+    max-width: 16px;
 }
 
 .horarios{
